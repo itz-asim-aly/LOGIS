@@ -1,0 +1,39 @@
+.card2-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+}
+.card2 {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card2-img {
+  width: 40%;
+  margin-top: 40px;
+}
+.card2-img img {
+  width: 100%;
+  height: fit-content;
+}
+.card2-txt {
+  width: 50%;
+  margin-left: 2rem;
+}
+.card2-txt h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #001973;
+  font-family: "Inter", sans-serif;
+}
+
+.card2-txt ul li {
+  padding-bottom: 10px;
+}
+ul {
+  list-style: none;
+}

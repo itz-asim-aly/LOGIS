@@ -1,0 +1,55 @@
+#nav-main {
+  height: 15vh;
+  background: blue;
+  color: white;
+  box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+}
+#navactive.active{
+  color: white;
+}
+strong {
+  font-size: 2.5rem;
+  color: white;
+}
+#navbarScrollingDropdown {
+  color: white;
+}
+
+#navactive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0 5px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    white-space: nowrap;
+    transition: 0.3s;
+    text-decoration: none;
+}
+#navactive:hover{
+    color: white;
+}
+#nav-btn{
+    margin-left: 30px;
+    border-radius: 4px;
+    color: #fff;
+    background: #0d42ff;
+    border: 1px solid  #0d42ff;
+}
+.nav1.active{
+background-color: rgba(14, 29, 52, 0.9);
+}
+
+
+#components-dropdown-demo-arrow .ant-btn {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.ant-row-rtl #components-dropdown-demo-arrow .ant-btn {
+  margin-right: 0;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+

@@ -1,0 +1,128 @@
+.pricing-tab {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  margin: 2rem 0 2rem;
+  /* background-color: bisque; */
+}
+.pro-tab {
+  border-top: 4px solid #0d42ff;
+}
+.free-tab:hover {
+  border-top: 4px solid #0d42ff;
+  transition: 0.1s ease;
+}
+.pro-tab:hover {
+  border-top: 4px solid #0d42ff;
+  transition: 0.1s ease;
+}
+.premium-tab:hover {
+  border-top: 4px solid #0d42ff;
+}
+.free-tab,
+.pro-tab,
+.premium-tab {
+  width: 30%;
+  padding: 60px 40px;
+  padding: 1rem;
+  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+  background: #fff;
+  height: 90%;
+  border-radius: 5px;
+}
+.free-tab h3,
+.pro-tab h3,
+.premium-tab h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #0e1d34;
+}
+.free-tab h4,
+.pro-tab h4,
+.premium-tab h4 {
+  font-size: 48px;
+  color: #0d42ff;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 25px;
+}
+.free-tab h4 span,
+.pro-tab h4 span,
+.premium-tab h4 span {
+  color: rgba(108, 117, 125, 0.8);
+  font-size: 18px;
+}
+.free-tab ul,
+.pro-tab ul,
+.premium-tab ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #6c757d;
+  text-align: left;
+  line-height: 20px;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.buy-btn:hover {
+  background: #0d42ff;
+  color: #fff;
+}
+.pro-buy-btn:hover {
+color: #fff;
+}
+.pro-buy-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+  border: 1px solid #0d42ff;
+  background-color: #0d42ff;
+  text-decoration: none;
+}
+.buy-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 4px;
+  color: #0d42ff;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+  border: 1px solid #0d42ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.na {
+  color: rgba(108, 117, 125, 0.5);
+}
+li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.free-tab ul i,
+.pro-tab ul i,
+.premium-tab ul i {
+  color: #059652;
+  font-size: 24px;
+  padding-right: 3px;
+}
+.free-tab ul .na i,
+.premium-tab ul .na i {
+  color: rgba(108, 117, 125, 0.5);
+}

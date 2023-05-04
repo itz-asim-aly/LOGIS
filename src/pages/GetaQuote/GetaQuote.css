@@ -1,0 +1,53 @@
+.Quote-hero {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(14, 29, 52, 0.8), rgba(14, 29, 52, 0.8)), url(./page-header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Quote-hero-content {
+  margin-top: 5rem;
+  width: 40%;
+  height: 50%;
+  text-align: center;
+}
+
+.Quote-hero-content h1 {
+  font-size: 56px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.Quote-hero-content p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.Quote-BreadCrumb {
+  width: 100%;
+  height: 10vh;
+  background-color: #f3f6fc;
+  padding: 10px 0;
+}
+#get-a-quote{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.quote-img{
+  background-image: url(./quote-bg.jpg);
+}
+.quote-form {
+    background: rgb(243, 246, 252);
+    padding: 20px;
+    height: 100%;
+}
+#quote-btn{
+    /* padding: 8px 20px; */
+    /* margin-left: 30px; */
+    /* border-radius: 4px; */
+    color: #fff;
+    background: #0d42ff;
+    border: 1px solid  #0d42ff;
+    /* margin: 40px 0px 10px 0px; */
+}

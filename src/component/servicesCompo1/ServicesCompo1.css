@@ -1,0 +1,115 @@
+.services {
+  width: 100%;
+  height: auto;
+}
+.services-heading {
+  width: 100%;
+  text-align: center;
+}
+.Services-shadow {
+  position: absolute;
+  color: rgba(49, 114, 212, 0.06);
+  left: 33%;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 0.3;
+}
+.services-heading h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #001973;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 5rem;
+}
+.cards {
+  width: 100%;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+.cardItem {
+  width: 27%;
+  border: 1px solid rgba(14, 29, 52, 0.15);
+}
+.card-img {
+  overflow: hidden;
+}
+.zoom {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transform: scale(1);
+  transition: all 1.1s;
+}
+.zoom {
+  transition: 0.3s ease-in-out;
+}
+.cardItem:hover .zoom {
+  transform: scale(1.1);
+}
+.cardItem:hover .card-txt a {
+  color: #0d42ff;
+}
+
+.card-txt a {
+  transition: 0.3;
+}
+.cardItem a {
+  text-decoration: none;
+  color: black;
+}
+.card-txt {
+  padding: 1rem;
+  padding-left: 2rem;
+}
+.blue-line{
+  content: "";
+  display: block;
+  margin-top: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 3px;
+  background-color: #0d42ff;
+  left: 0;
+  right: 0;
+}
+/*.action-div {
+  width: 100%;
+  height: 70vh;
+  padding: 150px;
+  background-size: cover;
+  background: url(./pics/cta-bg.jpg);
+  background: linear-gradient(rgba(14, 29, 52, 0.274), rgba(14, 29, 52, 0.637));
+}
+.action-div-txt {
+  width: 60%;
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.action-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.action-btn:hover {
+  background: #0d42ff;
+  border: 2px solid #0d42ff;
+} */
